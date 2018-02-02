@@ -4,6 +4,7 @@ const {Hook, HookController} = require('./hook');
 
 const TwitchHook = require('./hooks/twitch-hook');
 const StreamtipHook = require('./hooks/streamtip-hook');
+const LastfmHook = require('./hooks/streamtip-hook');
 
 module.exports = {
     // Core classes
@@ -12,5 +13,6 @@ module.exports = {
 
     // Built in hooks
     TwitchHook,
-    StreamtipHook
+    StreamtipHook,
+    LastfmHook
 };
