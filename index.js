@@ -4,7 +4,7 @@ const {Hook, HookController} = require('./hook');
 
 const TwitchHook = require('./hooks/twitch-hook');
 const StreamtipHook = require('./hooks/streamtip-hook');
-const LastfmHook = require('./hooks/streamtip-hook');
+const LastfmHook = require('./hooks/lastfm-hook');
 
 module.exports = {
     // Core classes
